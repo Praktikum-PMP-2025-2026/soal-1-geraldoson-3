@@ -14,7 +14,7 @@
 int main (){
     int i, N;
     scanf("%d", &N);
-    for (i = 0; i <= N; i++){
+    for (i = 1; i <= N; i++){
         if (i % 2 == 0 && i % 3 == 0 ){
             printf("BIRU\n");
         } else if (i % 3 == 0){
